@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="icon" type="image/png" href="src/assets/images/favicon.png" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Javascript -->
+    <script src="./src/js/main.js" defer></script>
+    <title><Gelson Chissanda /></title>
+  </head>
+
+  <body>
+    <div class="overlay hidden"></div>
+
+    <button id="switch-theme">
+      <ion-icon name="sunny"></ion-icon>
+    </button>
+
+    <main class="container">
+      <div class="profile-section">
+        <div class="profile-img">
+          <img src="src/assets/images/Gelsadas.jpg" />
+        </div>
+
+        <div class="profile-info">
+          <h1>Gelson Chissanda</h1>
+
+          <div>
+            <p>- Desenvolvedor Web Fullstack</p>
+            <p>- Innovation enthusiast</p>
+          </div>
+        </div>
+      </div>ede
+
+      <a
+        href="https://drive.google.com/file/d/1IvgQio9NWNQcEB5jqNVhFX7FRjT2tz4F/view?usp=sharing"
+        class="download-cv"
+        target="_blank"
+        >Download CV</a
+      >
+
+      <section>
+        <h2>Tech Stack</h2>
+
+        <ul class="list-items tech-stack">
+          <li>
+            <span>
+              <ion-icon name="logo-html5"></ion-icon>
+            </span>
+          </li>
+          <li>
+            <span>
+              <ion-icon name="logo-css3"></ion-icon>
+            </span>
+          </li>
+          <li>
+            <span>
+              <ion-icon name="logo-javascript"></ion-icon>
+            </span>
+          </li>
+          <li>
+            <span>
+              <ion-icon name="logo-react"></ion-icon>
+            </span>
+          </li>
+          <li>
+            <span>
+              <ion-icon name="logo-nodejs"></ion-icon>
+            </span>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projetos 👷‍♂️</h2>
+
+        <div class="card-list">
+          <!-- <div class="card">
+                    <div>
+                        <span class="title">
+                            eBay best price tracker
+                        </span>
+
+                    </div>
+
+                    <div class="links">
+                        <a href="">
+                            Ver repositório
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="">
+                            Web
+                            <ion-icon name="globe-outline"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <!-- card-list -->
+      </section>
+
+      <!-- Project Modal deve estar fora da lista de cards e não comentado -->
+      <div id="project-modal" class="hidden">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button id="close-modal">
+              <ion-icon name="close"></ion-icon>
+            </button>
+            <div id="thumbnail">
+              <img src="" alt="project cover" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <h2 class="project-title">
+              <!-- Dinamico -->
+            </h2>
+            <p>
+              <!-- Dinamico -->
+            </p>
+            <div class="modal-footer">
+              <div class="links">
+                <a target="_blank">
+                  Ver repositório
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a target="_blank">
+                  Web
+                  <ion-icon name="globe-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Idiomas 🌍</h2>
+
+        <ul class="list-items">
+          <li>Português</li>
+          <li>Inglês</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Fale comigo 📫</h2>
+
+        <form class="contact-form">
+          <div class="input-group">
+            <label for="name">Nome Completo</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+
+          <div class="input-group">
+            <label for="emaill">Email</label>
+            <input type="text" name="email" id="email" required />
+          </div>
+
+          <div class="input-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+
+          <button type="submit">
+            Enviar mensagem <ion-icon name="send"></ion-icon>
+          </button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Contatos 📱</h2>
+
+        <div class="social-links">
+          <a href="mailto:er3303992@gmail.com" target="_blank">
+            <ion-icon name="mail"></ion-icon>
+          </a>
+          <a href="https://github.com/ImaCod3r" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/edson-rodrigues-b35738267/"
+            target="_blank"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://www.instagram.com/_edson.freizer_" target="__blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
