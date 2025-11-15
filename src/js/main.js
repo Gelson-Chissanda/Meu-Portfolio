@@ -87,34 +87,27 @@ manager.render = function() {
 };
 
 manager.setProjects([
-    {
-        title: 'eBay best price tracker',
-        repoUrl: '#',
-        webUrl: '#',
-        thumbnail: "https://woz-u.com/wp-content/uploads/2022/06/Evolution-of-Coding-scaled.jpg",
-        description: 'Um projeto que visa ajudar os usuários a encontrar o melhor preço de produtos no eBay. O projeto utiliza Python para fazer scraping de dados do site e apresentar as informações de forma clara e concisa.'
-    },
-    {
-        title: "Pidiri online shop",
-        repoUrl:"#",
-        webUrl: "https://pidiri.online",
-        thumbnail: "https://theacsi.org/wp-content/uploads/2022/01/acsi-supermarket-industry-scaled.jpg",
-        description: "Um supermercado online com uma variedade de produtos essenciais."
-    },
-    {
-        title: "Reactjs Movie App",
-        repoUrl:"https://github.com/ImaCod3r/reactjs-movie-app",
-        webUrl: "https://reactjs-movie-app-omega.vercel.app",
-        thumbnail: "https://github.com/ImaCod3r/reactjs-movie-app/raw/main/public/readme/hero.png",
-        description: "Uma webApp que oferece um catalogo de filmes, com classificação, e sistema de busca."
-    },
-    {
-        title: "Dudu Whatsapp Bot",
-        repoUrl:"https://github.com/ImaCod3r/Dudu-whatsapp-bot",
-        webUrl: "#",
-        thumbnail: "https://connect.lime-technologies.com/wp-content/uploads/2025/03/whatsapp-bots-whatsapp-bots.png",
-        description: "O Dudu é um bot do whatsapp que permite reconhecer música através de mensagens de aúdio - entregando o título e a capa da música. Ele também oferece a opção de baixar a música diretamente no whatsapp."
-    },
+  {
+    title: "Mesa Solidária",
+    repoUrl: "https://github.com/Gelson-Chissanda/mesa-solidaria",
+    webUrl: "#",
+    description:
+      "Facilitamos doações de forma simples, transparente e segura, promovendo solidariedade e impacto real na comunidade.",
+  },
+  {
+    title: "Café Sadas",
+    repoUrl: "https://github.com/Gelson-Chissanda/sadas-cafe",
+    webUrl: "#",
+    description:
+      "Ambiente agradável e produtos selecionados para proporcionar uma experiência inesquecível a cada visita. Aqui, cada xícara conta uma história.",
+  },
+  {
+    title: "Santander",
+    repoUrl: "https://github.com/Gelson-Chissanda/Projeto-Santander",
+    webUrl: "#",
+    description:
+      "Uma iniciativa desenvolvida para oferecer soluções digitais eficientes, focadas em inovação, inclusão financeira e facilidade de acesso a serviços bancários.",
+  }
 ]);
 
 if (closeModalBtn) closeModalBtn.addEventListener('click', closeProjectModal);
